@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "914f9194a4d021de88b285b03e683984",
-    "content-hash": "e1929a97e872bdbaacc8530468eccb67",
+    "hash": "1df0e2b3a83a5a8b90a4ab3607189464",
+    "content-hash": "299027ab521861669fb95c49e5875f8f",
     "packages": [
         {
             "name": "bower-asset/bootstrap",
@@ -351,6 +351,47 @@
                 "mailer"
             ],
             "time": "2016-07-08 11:51:25"
+        },
+        {
+            "name": "tmukherjee13/yii2-reverse-migration",
+            "version": "v2.2.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/tmukherjee13/yii2-reverse-migration.git",
+                "reference": "2db08f0b49fd1bfe815796a24af29d31baab6f29"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/tmukherjee13/yii2-reverse-migration/zipball/2db08f0b49fd1bfe815796a24af29d31baab6f29",
+                "reference": "2db08f0b49fd1bfe815796a24af29d31baab6f29",
+                "shasum": ""
+            },
+            "require": {
+                "yiisoft/yii2": "*"
+            },
+            "type": "yii2-extension",
+            "autoload": {
+                "psr-4": {
+                    "tmukherjee13\\migration\\": ""
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Tarun Mukherjee",
+                    "email": "tmukherjee13@gmail.com"
+                }
+            ],
+            "description": "Generate working migration classes from existing Database",
+            "keywords": [
+                "database",
+                "migration",
+                "yii2"
+            ],
+            "time": "2016-08-12 10:00:03"
         },
         {
             "name": "yiisoft/yii2",
